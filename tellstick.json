@@ -1,0 +1,110 @@
+{
+    "devices": [
+        {
+            "id": 1,
+            "name": "Hallampa",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "selflearning-dimmer",
+            "parameters": {
+                "house": "1245618",
+                "unit": "11"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Fläkt sovrum",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "codeswitch",
+            "parameters": {
+                "house": "A",
+                "code": "1"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Ljuslist diskbänk",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "codeswitch",
+            "parameters": {
+                "house": "A",
+                "unit": "2"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Ström till balkongen",
+            "controller": 0,
+            "protocol": "fuhaote",
+            "model": "codeswitch",
+            "parameters": {
+                "code": "1000000100"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Ljuslist Vincents rum",
+            "controller": 0,
+            "protocol": "fuhaote",
+            "model": "codeswitch",
+            "parameters": {
+                "code": "1000001000"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Tak barnens rum (får ej användas)",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "selflearning-dimmer",
+            "parameters": {
+                "house": "10001",
+                "unit": "11"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Lampa sovrum",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "selflearning-dimmer",
+            "parameters": {
+                "house": "10002",
+                "unit": "12"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Dimmer 10",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "selflearning-dimmer",
+            "parameters": {
+                "house": "10003",
+                "unit": "13"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Dimmer 11",
+            "controller": 0,
+            "protocol": "arctech",
+            "model": "selflearning-dimmer",
+            "parameters": {
+                "house": "10004",
+                "unit": "14"
+            }
+        }
+    ],
+    "user": "nobody",
+    "group": "plugdev",
+    "deviceNode": "/dev/tellstick",
+    "ignoreControllerConfirmation": "false",
+    "controller": {
+        "id": 2,
+        "type": 2,
+        "serial": "A6028FWT"
+    }
+}
